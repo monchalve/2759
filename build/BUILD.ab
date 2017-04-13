@@ -1,0 +1,17 @@
+package(default_visibility = ['//visibility:public'])
+
+cc_library(
+    name = "a_lib",
+    srcs = [
+        "a.c",
+    ],
+    hdrs = [
+        "a.h",
+    ],
+    includes = [
+        ".",
+    ],
+    defines = [
+        "QUUX=7135",
+    ],
+)

@@ -1,0 +1,2 @@
+startup --batch_cpu_scheduling
+build --spawn_strategy=standalone --genrule_strategy=standalone --nobuild_runfile_links
